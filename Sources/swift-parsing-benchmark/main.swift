@@ -13,6 +13,7 @@ Benchmark.main(
     httpSuite,
     jsonSuite,
     numericsSuite,
+    prefixThroughSuite,
     prefixUpToSuite,
     raceSuite,
     readmeExampleSuite,
