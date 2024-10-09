@@ -2,7 +2,7 @@ import Benchmark
 import Foundation
 import Parsing
 
-/// This benchmarks the performance of `PrefixUpTo` against Apple's tools.
+/// This benchmarks the performance of `PrefixThrough` against Apple's tools.
 let prefixThroughSuite = BenchmarkSuite(name: "PrefixThrough") { suite in
   let input = String(repeating: ".", count: 10_000) + "Hello, world!"
   let marker = "Hello"
